@@ -1,0 +1,427 @@
+.header{
+	background: url("images/pemandangan1.jpg") no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-size:cover;
+	min-height: 650px;
+}
+
+/* style untuk (navbar, about, work, hobby, contact)(container) */
+@media (min-width: 768px) {
+	.container {
+	  width: 750px;
+	}
+  }
+  @media (min-width: 992px) {
+	.container {
+	  width: 970px;
+	}
+  }
+  @media (min-width: 1200px) {
+	.container {
+	  width: 1170px;
+	}
+  }
+
+/* untuk style pading atas (Home) */
+.header-top {
+	padding-top: 3em;
+}
+.logo{
+	float:left;
+	
+}
+
+/* style untuk navbar (Home) */
+.top-menu{
+	float:right;
+}
+.top-menu ul li{
+	display: inline-block;
+	padding: 5px 15px 0px 15px;
+}
+.top-menu ul li a{
+	font-size: 1.8em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+.top-menu ul li a:hover {
+	color: #ef664d;
+	
+}
+/* untuk blok warna di Home (Home)*/
+.top-menu ul li a.active {
+	color: #ef664d;
+	font-weight: 600;
+}
+
+/* untuk posisi menjadi ditengah*/
+.clearfix:after{
+	display: table;
+	content: " ";
+  }
+
+/* untuk style tulisan sampai .banner_center h2 span (Home)*/
+.banner_center {
+	width: 50%;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	text-align: center;
+}
+.banner_center h1 {
+	color: #ef664d;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+.banner_center h2 {
+	color: #eee;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-size: 1.7em;
+	padding:7px 0;
+}
+.banner_center h2 span
+{
+	color: #ef664d;
+	font-weight: 900;
+}
+
+/* untuk padding */
+.about-section {
+	padding: 2em 0;
+}
+
+/* untuk ketengahin tulisan & foto About (About) */
+.about-header {
+	text-align: center;
+}
+/* untuk style ukuran dan bentuk tulisan About (About) */
+.about-header h3 {
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ef664d;
+}
+.about-header h3 span {
+	color: #ef664d;;
+
+}
+
+/* untuk posisi gambar (About) */
+.about-imag {
+	float: left;
+	width:27%;
+	margin-right:5%
+}
+/* untuk style gambar menjadi bulat (About) */
+.about-imag img {
+	border: 2px solid #ef664d;
+	border-radius: 103px;
+}
+
+/* style tulisan paragraf (About) */
+.about-text {
+	float: left;
+	width: 65%;
+	margin-top:3%; 
+	font-size: 15px;
+	color: #7e7e7e;
+	line-height: 1.5em;
+}
+
+/* edit posisi tulisan */
+.polls {
+	padding: 10px 0;
+}
+/* posisi tulisan */
+.poll-desc {
+	float: left;
+}
+/* edit tulisan */
+.poll-desc h4{
+	font-size: 17px;
+	color: #2a404e;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+
+.percentage {
+	float: right;
+	margin-right: 26%
+}
+.percentage p{
+	font-size:17px;
+	color:#2a404e;
+	font-weight: bold;
+}
+
+.skills {
+	width: 100%;
+	margin: 5px 0;
+	height: 14px;
+	background:#dedede;
+}
+.skills > div {
+	height: 100%;
+	display: block;
+	background-color: #ef664d;
+}
+
+.works-section{
+	padding:3em 0;
+	background:#2e3e4e;
+	
+}
+
+.arrow {
+	padding-top: 15px;
+	text-align: center;
+}
+.arrow1 {
+	padding-top: 30px;
+	text-align: center;
+}
+.arrow2 {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.works-header{
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+}
+.works-header h3
+{
+	padding: 15px;
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ef664d;
+}
+.works-header h3 span {
+	color: #fefefe;
+}
+.works-header p{
+	line-height: 1.5em;
+	
+	font-size: 15px;
+	color: #fefefe;
+	padding: 5px 0;
+}
+
+.services-sectiongrid {
+	text-align: center;
+}
+.services-grid h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 15px 0;
+	color: #ef664d;
+	text-transform: uppercase;
+}
+.services-grid h5 {
+	font-size: 15px;
+	color: #f5f0f0;
+	padding: 0 22px;
+}
+
+.services-sectiongrids {
+	text-align: center;
+}
+
+.footer-section {
+	padding: 40px 0px;
+	background: #2e3e4e;
+}
+
+.contact-header {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+}
+.contact-header h3 {
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ef664d;
+}
+.contact-header h3 span {
+color: #fefefe;
+}
+.contact-header p {
+	line-height: 1.5em;
+	font-size: 15px;
+	color: #fefefe;
+	padding: 25px 0;
+}
+
+.social-icon {
+text-align: center;
+padding:30px 0;
+}
+.social-icon i{
+	width: 90px;
+	height:90px;
+	background: url("../images/logo2.png") no-repeat 0px 0px;
+	display:inline-block;
+}
+.social-icon i:hover{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 48px;
+	height: 48px;
+	border: none;
+	text-indent: 100%;
+	background: url("images/to-top2.png") no-repeat 0px 0px;
+}
+
+.services-section{
+	padding:3em 0;
+}
+.services-header{
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+
+}
+.services-header h3
+{
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ef664d;
+}
+.services-header h3 span {
+	color: #F0C514;
+}
+.services-header h5{
+	line-height: 1.5em;
+	font-size: 20px;
+	color: #ef664d;;
+	padding: 15px 0;
+}
+
+.services-header p{
+	line-height: 1.5em;
+	font-size: 15px;
+	color: #7e7e7e;
+	padding: 15px 0;
+}
+
+.services-grid h4 {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 15px 0;
+	color: #2a404e;
+	text-transform: uppercase;
+}
+.services-grid p {
+	font-size: 15px;
+	color: #7e7e7e;
+	padding: 0 22px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding:0 0;
+	margin:0 0;
+}
+p{
+	padding:0 0;
+	margin:0 0;
+}
+ul{
+	padding:0 0;
+	margin:0 0;	
+}
+body{
+	padding:0 0;
+	margin:0 0; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after,
+.form-horizontal .form-group:after,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:after,
+.nav:after,
+.navbar:after,
+.navbar-header:after,
+.navbar-collapse:after,
+.pager:after,
+.panel-body:after,
+.modal-footer:after {
+  clear: both;
+}
+
+
+@media (min-width: 992px) {
+	.col-md-4, .col-md-6 {
+	  float: left;
+	}
+	.col-md-6 {
+	  width: 50%;
+	}
+	.col-md-4 {
+	  width: 33.33333333%;
+	}
+  }
+
+  
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+  }
+
+.col-sm-4, .col-md-4, .col-sm-6, .col-md-6 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+  }
+
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+  }
+
+
+  * {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+  }
